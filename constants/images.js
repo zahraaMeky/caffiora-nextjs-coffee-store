@@ -1,0 +1,61 @@
+export default {
+  CaffioraLogo: '/assets/CaffioraLogo.png',
+  fabulabanner1: '/assets/fabulabeans3.png',
+  staricon: '/assets/starIcon.png',
+  coffeeCup: '/assets/coffeeCup.png',
+  yellowarrow: '/assets/yellowArrow.webp',
+  featureProductFubla1: '/assets/Fabula_Coffee_Bag_Decaf.png',
+  featureProductFubla2: '/assets/featureProductFubla1.png',
+  featureProductFubla3: '/assets/featureProductFubla2.png',
+  featureProductFubla4: '/assets/featureProductFubla4.png',
+  featureProductFubla5: '/assets/featureProductFubla5.png',
+  fabulabeans4: '/assets/fabulabeans4.png',
+  subscribebg: '/assets/subscribebg.jpg',
+  coffeeBeansPattern: '/assets/coffeeBeansPattern.jpg',
+  whiteCaffioraLogo: '/assets/whiteCaffioraLogo.png',
+  coffeeBg: '/assets/coffeeBg.png',
+  caffioraproducts: '/assets/caffioraproducts.png',
+  bannerbg: '/assets/bannerbg.webp',
+  aboutherobg:'/assets/aboutherobg.webp',
+  ExperienceofCaffioraCoffee:'/assets/ExperienceofCaffioraCoffee.png',
+  icon1:'/assets/icon1.avif',
+  icon2:'/assets/icon2.avif',
+  icon3:'/assets/icon3.avif',
+  aboutProductbg:'/assets/aboutProductbg.webp',
+  aboutProduct1:'/assets/aboutProduct1.png',
+  aboutProduct2:'/assets/aboutProduct2.png',
+  testimonials1:'/assets/testimonials1.png',
+  testimonials2:'/assets/testimonials2.png',
+  testimonials3:'/assets/testimonials3.png',
+  testimonials4:'/assets/testimonials4.png',
+  rewordsbg:'/assets/rewordsbg.png',
+  rewardsbg2:'/assets/rewardsbg2.png',
+  rewardsbg3:'/assets/rewardsbg3.png',
+  rewardsbg4:'/assets/rewardsbg4.png',
+  referalbg:'/assets/referalbg.webp',
+  referalbg2:'/assets/referalbg2.png',
+  CoffeeBeans:'/assets/CoffeeBeans.png',
+  CoffeeBag:'/assets/CoffeeBag.png',
+  productherobg:'/assets/productherobg.png',
+  heroproductbng2:'/assets/heroproductbng2.png',
+  gift1:'/assets/gift1.png',
+  gift2:'/assets/gift2.png',
+  gift3:'/assets/gift3.png',
+  gift4:'/assets/gift4.png',
+  rewardsbg5:'/assets/rewardsbg5.png',
+  CaffioraLogo2:'/assets/CaffioraLogo2.png',
+  featurebg:'/assets/featurebg.png',
+  coffeeresourcesbg:'/assets/coffeeresourcesbg.webp',
+  coffetableregular:'/assets/coffetableregular.webp',
+  coffeetable:'/assets/coffeetable.png',
+  coffeeproduct:'/assets/coffeeproduct.png',
+
+ 
+  
+
+
+  
+  
+
+
+};
