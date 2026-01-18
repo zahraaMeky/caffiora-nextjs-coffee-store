@@ -97,11 +97,11 @@ export const ReferralSteps = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-row gap-3 sm:gap-4 justify-center items-center flex-wrap">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-md mx-auto">
           <Button
             onClick={handleCopyLink}
             size="lg"
-            className="h-11 xs:h-12 sm:h-13 md:h-14 text-sm sm:text-base md:text-lg px-5 xs:px-6 sm:px-8 lg:px-10 bg-gradient-to-r from-[#ffbf00] to-[#ffbf00]/90 hover:from-[#ffbf00]/90 hover:to-[#ffbf00] text-[#7A5633] font-bold shadow-lg hover:shadow-xl hover:scale-[1.02] sm:hover:scale-105 active:scale-95 transition-all duration-300 border-2 border-[#ffbf00] rounded-lg"
+            className="w-full sm:w-52 h-11 xs:h-12 sm:h-13 md:h-14 text-sm sm:text-base md:text-lg px-5 xs:px-6 sm:px-8 lg:px-10 bg-gradient-to-r from-[#ffbf00] to-[#ffbf00]/90 hover:from-[#ffbf00]/90 hover:to-[#ffbf00] text-[#7A5633] font-bold shadow-lg hover:shadow-xl hover:scale-[1.02] sm:hover:scale-105 active:scale-95 transition-all duration-300 border-2 border-[#ffbf00] rounded-lg"
           >
             <Copy className="mr-1.5 xs:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
             <span className="whitespace-nowrap">Copy Your Link</span>
@@ -110,7 +110,7 @@ export const ReferralSteps = () => {
             onClick={handleShare}
             variant="outline"
             size="lg"
-            className="h-11 xs:h-12 sm:h-13 md:h-14 text-sm sm:text-base md:text-lg px-5 xs:px-6 sm:px-8 lg:px-10 bg-transparent border-2 border-[#7A5633] text-[#7A5633] font-bold hover:bg-[#7A5633] hover:text-white shadow-md hover:shadow-lg hover:scale-[1.02] sm:hover:scale-105 active:scale-95 transition-all duration-300 rounded-lg"
+            className="w-full sm:w-52 h-11 xs:h-12 sm:h-13 md:h-14 text-sm sm:text-base md:text-lg px-5 xs:px-6 sm:px-8 lg:px-10 bg-transparent border-2 border-[#7A5633] text-[#7A5633] font-bold hover:bg-[#7A5633] hover:text-white shadow-md hover:shadow-lg hover:scale-[1.02] sm:hover:scale-105 active:scale-95 transition-all duration-300 rounded-lg"
           >
             <Share2 className="mr-1.5 xs:mr-2 h-4 w-4 sm:h-5 sm:w-5" />
             <span className="whitespace-nowrap">Share Now</span>
