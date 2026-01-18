@@ -15,7 +15,7 @@ export const steps = [
   },
   {
     number: 3,
-    title: "Enjoy a $30 Coupon When They Order!",
+    title: "Enjoy a $30 Coupon Order!",
     description: "Get rewarded when your friends make their first purchase",
     icon: Gift,
   },
