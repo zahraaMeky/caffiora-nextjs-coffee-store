@@ -11,13 +11,13 @@ const CoffeeResources = () => {
       aria-labelledby="caffiora-story-heading"
     >
       {/* Background Image - Responsive positioning */}
-      <div className='absolute top-0 left-0 md:left-auto md:right-0 w-full md:w-2/3 lg:w-1/2 h-56 sm:h-72 md:h-full pointer-events-none'>
+      <div className='absolute top-0 left-0 w-full h-64 sm:h-80 md:h-96 lg:h-[500px] xl:left-auto xl:right-0 xl:w-1/2 xl:h-full pointer-events-none'>
         <div className='relative w-full h-full'>
           <Image 
             src={images.coffeeresourcesbg}
             alt="" 
             fill
-            className='object-cover object-center'
+            className='object-cover object-center xl:object-right'
             priority={false}
             aria-hidden="true"
           />
@@ -25,15 +25,15 @@ const CoffeeResources = () => {
       </div>
 
       {/* Text Content - Responsive positioning */}
-      <div className='relative z-10 w-full max-w-full md:max-w-lg mt-60 sm:mt-80 md:mt-0 px-4 sm:px-6 md:px-0'>
+      <div className='relative z-10 w-full max-w-full xl:max-w-lg mt-72 sm:mt-96 md:mt-[420px] lg:mt-[520px] xl:mt-0 px-4 sm:px-6 md:px-0'>
         <h3 
           id="caffiora-story-heading"
-          className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-primary mb-4 sm:mb-6 md:mb-8 leading-tight'
+          className='text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold text-primary mb-4 sm:mb-6 md:mb-8 leading-tight'
         >
           This is how Caffiora was born…
         </h3>
         
-        <p className='paragraphText text-sm sm:text-base leading-relaxed'>
+        <p className='paragraphText text-sm sm:text-base md:text-base leading-relaxed'>
           Having experienced the cleanest, purest coffee on a mountainside in Peru, 
           we struggled to find something like it after coming home. 
           Since then, it became our life mission to find the purest, most delicious 

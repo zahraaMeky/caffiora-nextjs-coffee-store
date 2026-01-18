@@ -7,7 +7,7 @@ const AboutCoffeeProductCard = ({ product, index }) => {
     <div className="relative">
       {/* Decorative Image - Above card on mobile, Right Side on larger screens */}
       {product?.image && (
-        <div className="w-48 h-48 mx-auto sm:absolute sm:top-1/2 sm:-translate-y-1/2 sm:right-0 sm:w-56 sm:h-56 md:w-64 md:h-64 pointer-events-none" style={{ zIndex: 15 }}>
+        <div className="w-48 h-48 mx-auto sm:absolute sm:top-1/2 sm:-translate-y-1/2 sm:right-0 sm:w-56 sm:h-56  md:w-64 md:h-64 pointer-events-none" style={{ zIndex: 15 }}>
           <img 
             src={product.image} 
             alt={product?.title || 'Product'} 
